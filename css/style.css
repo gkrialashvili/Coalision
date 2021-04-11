@@ -1,3 +1,7 @@
+.main-container {
+  font-family: "Open Sans";
+}
+
 .header-info-container {
   width: 100%;
   min-height: 50px;
@@ -5,6 +9,11 @@
 }
 
 .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.container {
   padding-left: 0;
   padding-right: 0;
 }
@@ -65,7 +74,7 @@
   cursor: pointer;
 }
 
-.justify-space-between {
+.navbar {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -86,5 +95,188 @@
   border-bottom: 5px solid #ff6200;
   color: #000;
   font-weight: bold;
+}
+
+.location {
+  width: 100%;
+  font-size: 14px;
+}
+
+.location span {
+  color: #aaaaaa;
+}
+
+.location span .c-t {
+  color: #535353;
+  font-weight: bold;
+}
+
+.main-content-container {
+  margin-top: 50px;
+}
+
+.contact-info-container {
+  margin-top: 40px;
+}
+
+.contact-info-container h3 {
+  color: #ff6200;
+  font-weight: bold;
+  font-size: 27px;
+  margin-bottom: 5px;
+}
+
+.contact-info-container div {
+  color: #878787;
+  font-size: 15px;
+  font-family: "ubuntu";
+  text-align: left;
+  max-width: 832px;
+}
+
+.submitButton {
+  color: #fff;
+  border-radius: 0px;
+  background-color: #ff6200;
+}
+
+.submitButton:hover {
+  background-color: #ff690b;
+}
+
+.button-container {
+  margin-top: 30px;
+  margin-bottom: 75px;
+}
+
+.formContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 60px;
+}
+
+.forms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 450px;
+  width: 100%;
+}
+
+.forms-title {
+  width: 100%;
+  border-bottom: 6px solid #525252;
+  padding-bottom: 15px;
+  font-size: 23px;
+  color: #ff6200;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.mail-phone {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mail-phone input {
+  max-width: 220px;
+  width: 100%;
+}
+
+.address {
+  color: #595959;
+  font-size: 17px;
+  font-family: "Myriad Pro";
+}
+
+.address .uno {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.address .dos {
+  margin-bottom: 10px;
+}
+
+.fab {
+  font-size: 35px;
+}
+
+.icons {
+  margin-top: 70px;
+}
+
+.icons i {
+  margin: 0 3px;
+}
+
+@media screen and (max-width: 975px) {
+  .formContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .header-info-content {
+    width: 90%;
+  }
+  .navbar {
+    width: 95%;
+  }
+  .location {
+    margin-left: 15px;
+  }
+  .contact-info-container {
+    margin-left: 15px;
+  }
+  .button-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .formContainer {
+    width: 90%;
+  }
+  .mail-phone {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mail-phone input {
+    max-width: 100%;
+    margin: 10px 0;
+  }
+  .navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .navbar img {
+    margin-bottom: 15px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

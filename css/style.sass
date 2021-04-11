@@ -1,3 +1,5 @@
+.main-container
+    font-family: "Open Sans"
 
 .header-info-container
     width: 100%
@@ -5,6 +7,10 @@
     background-color: #ff6200
 
 .container-fluid
+    padding-left: 0
+    padding-right: 0
+
+.container
     padding-left: 0
     padding-right: 0
 
@@ -48,7 +54,7 @@
     font-weight: bold
     cursor: pointer
 
-.justify-space-between
+.navbar
     justify-content: space-between
 
 .navigation-bar
@@ -61,3 +67,133 @@
     border-bottom: 5px solid #ff6200
     color: #000
     font-weight: bold
+
+.location
+    width: 100%
+    font-size: 14px
+
+.location span
+    color: #aaaaaa
+
+.location span .c-t
+    color: #535353
+    font-weight: bold
+
+.main-content-container
+    margin-top: 50px
+
+.contact-info-container
+    margin-top: 40px
+
+.contact-info-container h3
+    color: #ff6200
+    font-weight: bold
+    font-size: 27px
+    margin-bottom: 5px
+
+.contact-info-container div
+    color: #878787
+    font-size: 15px
+    font-family: "ubuntu"
+    text-align: left
+    max-width: 832px
+
+.submitButton
+    color: #fff
+    border-radius: 0px
+    background-color: #ff6200
+
+.submitButton:hover
+    background-color: #ff690b
+
+.button-container
+    margin-top: 30px
+    margin-bottom: 75px
+
+.formContainer
+    display: flex
+    justify-content: space-between
+    margin-top: 60px
+
+.forms
+    display: flex
+    flex-direction: column
+    max-width: 450px
+    width: 100%
+
+.forms-title
+    width: 100%
+    border-bottom: 6px solid #525252
+    padding-bottom: 15px
+    font-size: 23px
+    color: #ff6200
+    font-weight: bold
+    margin-bottom: 10px
+
+.mail-phone
+    justify-content: space-between
+
+.mail-phone input
+    max-width: 220px
+    width: 100%
+
+.address
+    color: #595959
+    font-size: 17px
+    font-family: "Myriad Pro"
+
+.address .uno
+    font-size: 20px
+    margin-bottom: 10px
+
+.address .dos
+    margin-bottom: 10px
+
+.fab
+    font-size: 35px
+
+.icons
+    margin-top: 70px
+
+.icons i
+    margin: 0 3px
+
+@media screen and ( max-width: 975px )
+    .formContainer
+        flex-direction: column
+        align-items: center
+
+@media screen and ( max-width: 575px )
+    .header-info-content
+        width: 90%
+
+    .navbar
+        width: 95%
+
+    .location
+        margin-left: 15px
+
+    .contact-info-container
+        margin-left: 15px
+
+    .button-container
+        display: flex
+        justify-content: flex-end
+        width: 95%
+
+@media screen and ( max-width: 470px )
+    .formContainer
+        width: 90%
+
+    .mail-phone
+        flex-direction: column
+
+    .mail-phone input
+        max-width: 100%
+        margin: 10px 0
+
+    .navbar
+        flex-direction: column
+
+    .navbar img
+        margin-bottom: 15px
